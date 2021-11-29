@@ -15,7 +15,7 @@ Web Socket server를 기동한다.
 $> go run main.go
 ```
 
-Web Socket client를 기동한다.
+Python으로 웹서버를 기동한다. (index.html)
 ```
 $ python -m SimpleHTTPServer
 Serving HTTP on 0.0.0.0 port 8000 ...
