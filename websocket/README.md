@@ -1,4 +1,4 @@
-# Gorilla / websocket 패키지를 사용한 Go WebSocke
+# Gorilla / websocket 패키지를 사용한 Go WebSocket
 gorilla 패키지를 활용한 웹소켓 통신 방법
 
 ## Prepare
