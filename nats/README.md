@@ -30,7 +30,7 @@ $> go build
 ```
 
 ## Run
-Pub/Sub Test
+CLI Pub/Sub Test
 ```
 $> nats sub test.event
 // Subscribe 역할을 담당할 CLI
@@ -39,6 +39,7 @@ $> nats pub test.event hello
 // Publisher 역할을 담당할 CLI
 ```
 
+Golang Pub/Sub Test
 ```
 // nats/sub : Subscriber
 $> go run main.go
@@ -48,6 +49,8 @@ $> go run main.go
 ```
 
 ## Reference
-https://nats.io/
-https://www.youtube.com/watch?v=Q7ZqQt87tz0
-https://www.youtube.com/watch?v=h1K800PuBHM&t=286s
+<ul>
+<li>https://nats.io/</li>
+<li>https://www.youtube.com/watch?v=Q7ZqQt87tz0</li>
+<li>https://www.youtube.com/watch?v=h1K800PuBHM&t=286s</li>
+</ul>
