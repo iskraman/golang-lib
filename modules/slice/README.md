@@ -9,6 +9,6 @@ func SliceExists(slice interface{}, item interface{}) bool
 
 example)
 items := []int{1, 2, 3, 4, 5, 6}
-fmt.Println(slice.SliceExists(items, 5))   // returns true
-fmt.Println(slice.SliceExists(items, "5")) // returns false
+fmt.Println(SliceExists(items, 5))   // returns true
+fmt.Println(SliceExists(items, "5")) // returns false
 ```
