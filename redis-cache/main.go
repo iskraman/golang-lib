@@ -24,6 +24,7 @@ func main() {
 	opt := redis.DialPassword("changeme")
 	conn, err := redis.Dial("tcp", "localhost:6379", opt)
 	checkError(err)
+
 	defer conn.Close()
 
 	_, err = conn.Do(
